@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position property</title>
+    <style>
+        .main{
+            background-color: white;
+            position: relative;
+            display: inline-block;
+        }
+        .static{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /*margin-left: 30px;*/
+        }
+        .relative{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(0, 255, 89);
+            margin-left:100px;
+        }
+        .absolute{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(0, 42, 255);
+        }
+        .fixed{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+        .sticky{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(10, 91, 166);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="static">Static</div>
+    <div class="relative">relative</div>
+    <div class="absolute">absolute</div>
+    <div class="fixed">fixed</div>
+    <div class="sticky">sticky</div>
+    </div>
+</body>
+</html>

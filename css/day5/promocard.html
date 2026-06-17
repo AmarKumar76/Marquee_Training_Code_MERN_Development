@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Promo Card</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:#f2f2f2;
+      padding-top:100px;
+    }
+
+    .card{
+      width:300px;
+      background:white;
+      border-radius:12px;
+      overflow:hidden;
+      position:relative;
+      margin:0 auto;
+    }
+
+    .card img{
+      width:100%;
+      display:block;
+    }
+
+    .sale{
+      position:absolute;
+      top:10px;
+      left:10px;
+
+      background:red;
+      color:white;
+      padding:5px 10px;
+      border-radius:5px;
+      font-size:14px;
+    }
+
+    .heart{
+      position:absolute;
+      top:10px;
+      right:10px;
+
+      background:white;
+      padding:8px;
+      border-radius:50%;
+      cursor:pointer;
+    }
+
+    .content{
+      padding:15px;
+    }
+
+    .price{
+      color:green;
+      margin:10px 0;
+      font-weight:bold;
+    }
+
+    button{
+      width:100%;
+      padding:10px;
+      border:none;
+      background:black;
+      color:white;
+      border-radius:6px;
+      cursor:pointer;
+    }
+
+    button:hover{
+      background:#333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <span class="sale">SALE</span>
+    <div class="heart">❤</div>
+    <img src="image.png">
+    <div class="content">
+      <h2>Running Shoes</h2>
+      <p class="price">₹2999</p>
+      <button>Add to Cart</button>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#F5F5F5;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+  
+ 
+}
+
+.left-icon{
+    display: flex;
+    gap: 20px;
+    width: 60%;
+    align-items: center;
+ 
+}
+.imgx img{
+     width: 140px;
+     height: 40px;
+}
+
+.right-icon ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.searchbox{
+    border: 1px solid black;
+    border-radius: 08px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.searchbox input{
+    border: none;
+    outline: none;
+}
+
+.right-icon button{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 08px;
+}
+.leftmain{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 30px 10px 30px;
+    border: 1px solid #F5F5F5
+}
+
+.lowerright,
+.lowerleft{
+    display: flex;
+    gap: 20px;
+}
+
+.leftmain a{
+    text-decoration: none;
+    color: black;
+    
+}
+/****hero section *****/
+.poster{
+    display: flex;
+    justify-content: center;
+    
+}
+.poster img{
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    height: 300px;
+}
+.movie-content{
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.info p{
+    color: #f84464;
+}
+.card-container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+.movie-card img{
+    border-radius: 10px;
+    height: 350px;
+    width: 210px;
+    margin: 5px;
+}
+.banner{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.banner img{
+        width: 96%;
+}
+.container{
+     margin-top: 50px;
+     margin-left: 40px;
+}
+.card2-container{
+    width: 96%;
+    display: flex;
+}
+.image img{
+    width: 215px;
+    height: 210px;
+    border-radius: 10px;
+    margin: 10px;
+}
