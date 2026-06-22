@@ -1,0 +1,25 @@
+.main{
+    border: 2px solid black;
+    margin:20px;
+    padding: 20px;
+    background-color: aqua;
+}
+@media(max-width:500px){
+    .main{
+        background-color: blue;
+        border: 2px solid brown;
+        border-radius: 8px;
+        height: 300px;
+        width: 100px;
+        align-content: center;
+        /* align-items: center; */
+    }
+}
+/*
+@media(min-width:500px){
+    .main{
+        background-color: blue;
+        border: 2px solid brown;
+        border-radius: 8px;
+    }
+} */
