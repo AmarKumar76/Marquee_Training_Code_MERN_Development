@@ -9,14 +9,24 @@
     border: 2px solid black;
     justify-content: space-between;
 }
+.right{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
 li{
     list-style: none;
+    padding: 20px;
     justify-content: space-between;
 }
+
 @media(max-width:576px) {
     .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .right{
+        flex-direction: column;
     }
 }
