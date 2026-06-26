@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+    <style>
+        a {
+            font-size: xx-large;
+            font-weight: 900;
+        }
+
+        a:link {
+            color: rgb(13, 234, 13);
+        }
+
+        a:visited {
+            color: goldenrod
+        }
+
+        a:hover {
+            background-color: red;
+        }
+
+        a:active {
+            border: 2px solid black;
+        }
+
+        input:focus {
+            background-color: green;
+        }
+
+        li:first-child {
+            color: blue;
+        }
+
+        li:nth-child(2) {
+            color: red;
+        }
+
+        li:last-child {
+            color: aquamarine;
+        }
+
+        h1::before {
+            content: 'This is ';
+            color: red
+        }
+
+        h1::after {
+            content: '*';
+            color: red
+        }
+        p::selection{
+            background-color: black;
+            color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://www.w3schools.com/css/default.asp">w3School</a>
+    <input type="text">
+    <ul>
+        <li>home</li>
+        <li>Contact</li>
+        <li>product</li>
+        <li>service</li>
+    </ul>
+    <h1>Heading1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam dolorum, facilis, adipisci iusto sapiente ab
+        cum dolore pariatur molestiae dolores reprehenderit numquam perferendis obcaecati! Mollitia quaerat quas quae
+        cumque!</p>
+</body>
+
+</html>

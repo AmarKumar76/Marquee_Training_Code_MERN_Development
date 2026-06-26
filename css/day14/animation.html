@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation-2d-3d</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /*transform: translate(300px,500px);*/
+            position: relative;
+            animation: rotatebox 2s infinite;
+        }
+        @keyframes rotatebox{
+            0%{
+                left:0;
+                top:0;
+            }
+            50%{
+                left:200px;
+                top:0;
+            }
+            75%{
+                left:200px;
+                top:200px;
+            }
+            100%{
+                left:0;
+                top:200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">box</div>
+</body>
+</html>
