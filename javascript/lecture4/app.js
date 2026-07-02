@@ -73,3 +73,7 @@ console.log(intro.split(' '))
 console.log(intro.toLowerCase())
 console.log(intro.toUpperCase())
 console.log(intro.toLocaleUpperCase())
+
+let s= "7";
+let p = "7"+1;
+console.log(typeof(p));
