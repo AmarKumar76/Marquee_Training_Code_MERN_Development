@@ -56,7 +56,6 @@ console.log(num)
 
 
 
-
 const std ={
     name: "amar",
     roll_no: 34
