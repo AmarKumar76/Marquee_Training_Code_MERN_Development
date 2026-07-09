@@ -131,3 +131,5 @@ let user1 = {
 }
 console.log(typeof(user1.id))
 console.log(user1)
+user1.id=56; 
+console.log(user1)
