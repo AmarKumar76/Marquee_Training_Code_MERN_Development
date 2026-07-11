@@ -67,4 +67,4 @@ u1.welcome.apply(u2,["noida",34]);
 //syntax:
 // newfunction(arg1,args2) = object.method.bind(object)
 
-//let newwelcome("delhi",23) = u1.welcome(u2);
+//let newwelcome("delhi",23) = u1.welcome(u
