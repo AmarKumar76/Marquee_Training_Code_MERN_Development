@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            background: #f6f6f6;
+            font-family: Arial, sans-serif;
+        }
+
+        .password-box {
+            width: min(600px, 90%);
+            padding: 44px 80px;
+            border: 5px solid #4b4b4b;
+            border-radius: 48px;
+            background: white;
+        }
+
+        input, .output {
+            width: 100%;
+            min-height: 74px;
+            padding: 18px 24px;
+            border: 4px solid #4b4b4b;
+            border-radius: 20px;
+            font-size: 24px;
+            outline: none;
+        }
+
+        input:focus { border-color: #2563eb; }
+
+        .output {
+            margin-top: 36px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .strong { color: #15803d; }
+        .weak { color: #dc2626; }
+    </style>
+</head>
+<body>
+    <main class="password-box">
+        <input id="passwordInput" type="text" placeholder="Enter password" aria-label="Password">
+        <div id="passwordOutput" class="output">Enter a password</div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+>
+</html>
