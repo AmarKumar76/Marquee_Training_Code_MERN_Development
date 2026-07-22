@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="list">
+        <li id="htm">HTML</li>
+        <li id="js">js</li>
+    </ul>
+    <script>
+        const list = document.getElementById("list");
+        //const l1 = document.createElement("li")
+        //const l2 = document.createElement("li")
+        //l1.innerText="js"
+        
+        //appendchild -> last m add krte ahai
+        // syntax ;_ parent.appendChild(ele)
+        //list.appendChild(l1)
+        //l2.innerText="R.programming"
+        //list.appendChild(l2);
+        
+        /*const l3 = document.createElement("li")
+        l3.innerText ="Mern"
+        const l4 = document.createElement("li")
+        l4.innerText ="react"
+        const l5 = document.createElement("li")
+        l5.innerText ="python"
+        const l6 = document.createElement("li")
+        l6.innerText ="java"
+        //list.append(l3)
+        //l3.append("mar")
+        list.append(l3,l4,l5,l6);
+        //list.appendChild(l3,l4,l5,l6);*/
+
+        // insetbefore 
+        //parent.insertBefore(newele referance)
+       /* const l1 = document.createElement("li")
+        const js = document.getElementById("js");
+        l1.innerText = "css";
+        list.insertBefore(l1,js);*/
+
+        //const random = list.children[0]
+        //list.insertBefore(li,random)
+         
+        const heading = document.createElement("h1")
+        heading.innerText = "welcome to parul university"
+        list.append(heading);
+
+       heading.remove();
+
+
+    </script>
+</body>
+</html>
