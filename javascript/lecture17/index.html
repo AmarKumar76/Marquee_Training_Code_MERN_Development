@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- // DOM TRAVERSAL  -->
+    <!-- DOCUMENT
+            HTML
+                BODY
+                    H1
+                        SPAN -->
+
+        <!-- <div id="1">
+            <div id="2">
+                <span></span>
+            </div>
+        </div> -->
+        <!-- parent of span :-> div id 2 -->
+        
+    <!-- // why do we need parent navigation
+    //syntax for find parent element
+    // element.parentElement -->
+
+        <div id="parent">
+            <h1 id="title"></h1>
+        </div>
+        <button id="btn"></button>
+
+
+         <div class="card">
+            <div class="card">
+                <p>
+                <span></span>
+                </p>
+            </div>
+        </div> 
+    <!-- closest(): Searches upward until selctor matches -->
+        <script>
+            const title = document.getElementById("title")
+            const btn  = document.getElementById("btn")
+            btn.addEventListener("click",function(){
+                console.log(title.parentElement);
+            })
+
+
+        </script>
+</body>
+</html>
