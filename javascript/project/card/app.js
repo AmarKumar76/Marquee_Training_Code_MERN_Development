@@ -3,8 +3,9 @@ const result = document.getElementById("result");
 
 //update count
 function updateCount(){
-    result.inner = "Total Student :"+container.children.length;
-}updateCount();
+    result.innerText = "Total Student :"+container.children.length;
+}
+updateCount();
 
 // delete count
 const deleteBtn = document.querySelectorAll(".deleteBtn")
